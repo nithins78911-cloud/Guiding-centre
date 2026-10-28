@@ -12,8 +12,8 @@ print *, "enter the initial parameters"
 print*, "enter the intital position vector (x,y,z) in meters separately in spaces and commas"
 read(*,*) r(1), r(2), r(3)
 
-print *, "enter velocity vector (VX, VY, VZ) in m/s eg: 1e5 0 0)"
-read(*,*) V(1), v(2), v(3)
+print *, "enter velocity vector (V_X, V_Y, V_Z) in m/s eg: 1e5 0 0)"
+read(*,*) v(1), v(2), v(3)
 
 print *, "enter the magnetic field vector Bx,By, Bz in tesla eg: 0 0 1.5"
 read(*,*) B(1), B(2), B(3)
