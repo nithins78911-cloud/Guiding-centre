@@ -26,16 +26,17 @@ The program is written in standard Fortran and proceeds as follows:
   4.The guiding-centre approximation is strictly valid only in the limit ρ_L​≪ L_B​, where L_B​ is the magnetic-field gradient      scale length.
 
 
-**Compilation and Execution**
+## Compilation and Execution
+
+**Prerequisites:** GNU Fortran compiler (`gfortran`) version 4.0 or later.
 
 ```bash
 gfortran guiding_Centre.f90 -o guiding_centre
 ./guiding_centre
 
-**A few minor points to keep in mind:**
-- The `.f90` extension must match your actual file name exactly (case-sensitive on Linux/macOS).
-- If your file is named `guiding_Centre.F90` (capital F) instead, adjust accordingly.
-- On Windows, the second line would be `guiding_centre.exe` instead of `./guiding_centre`.
+**Notes:**
+ 1. The .f90 extension must match your file name exactly (case-sensitive on Linux/macOS).
+ 2. On Windows, replace ./guiding_centre with guiding_centre.exe..
 
 
 
